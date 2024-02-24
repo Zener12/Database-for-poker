@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C627BA10-D4E7-FF17-A282-293D89DB5575" name="turniri">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 06:41:53 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_turniri" id="C129F3FA-B4AA-EE77-77F2-B12CF8FAB993">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 06:41:59 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name_turniri" id="F3650EC7-EAB7-7BEB-4A80-B9EC7D4FB7C0">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 06:42:19 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_turniri" id="634CD057-7985-312C-C5DE-6A8AEBFAEC10">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 06:42:37 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="292E3F47-FBAD-F7C1-E747-E0EDB2B5EA27" name="turniri PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 06:42:15 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C129F3FA-B4AA-EE77-77F2-B12CF8FAB993</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

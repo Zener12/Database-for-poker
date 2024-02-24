@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2612463-5755-6E15-A095-E78147780A6D" name="Hist_igrarat">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rating_ID_rating" id="1D45ADCD-83E3-B1FB-6A42-FC93096CDEC2">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7073C80-A1A8-844E-D452-4E1949F922C9" referredColumn="0FA5FF7D-CAAC-3FC1-CFDB-C7948BA58798"/>
+</associations>
+</Column>
+<Column name="igri_ID_igri" id="858DB9EC-67CC-102E-AB8D-09ECC8ACC437">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51A3AB95-B619-E47F-4FE1-A8C67DDE7145" referredColumn="7AB63424-5122-87F0-E6A7-00A0E70FF6D2"/>
+</associations>
+</Column>
+<Column name="StartDate" id="F49D0A42-DCDE-4AC9-2FA5-703305E04A5E">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>81ADB9CD-70E7-07A2-E6AB-2C59D99B9BD5</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="FinishDate" id="EAC04C0F-C88E-F9A0-D4CB-8F3679C4AD58">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>E108E4A8-9DDA-D17A-3EA0-46C2611653BB</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58C4E7BE-FED3-6622-FF72-2A748AB42318" name="Hist_igrarat_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D45ADCD-83E3-B1FB-6A42-FC93096CDEC2"/>
+<colUsage columnID="858DB9EC-67CC-102E-AB8D-09ECC8ACC437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61E3B0ED-28BB-5DAD-A5AC-438526238BF0" name="Hist_igrarat_Rating_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>D0236ABD-99B6-F904-BC97-A7FE47E47F14</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D45ADCD-83E3-B1FB-6A42-FC93096CDEC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B0EA53B-CDB7-EB19-D20C-4B38A2039D08" name="Hist_igrarat_igri_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>D0236ABD-99B6-F904-BC97-A7FE47E47F14</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="858DB9EC-67CC-102E-AB8D-09ECC8ACC437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

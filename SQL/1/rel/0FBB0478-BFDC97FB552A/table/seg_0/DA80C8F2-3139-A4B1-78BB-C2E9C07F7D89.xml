@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA80C8F2-3139-A4B1-78BB-C2E9C07F7D89" name="viplati">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>C3F5F3C3-9953-8C9E-44B3-9774AE346EC7</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_viplati" id="7ABE838F-B6DA-518A-4244-B1197CC30B26">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>D0FCB497-D7D8-56A4-28C5-825D4623E83F</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Summa_viplati" id="6E73E657-4095-B0A5-1087-7A7A129F6443">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>30578FA0-2080-B1F3-1799-26306A16F97F</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="polzov_ID_polzov" id="977F85F5-221E-454E-5DF2-3B7777EA0048">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>9963018E-FD94-F31C-2D83-4C4A9781FB33</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D3333F2-637A-4F64-C53C-A89464F79B29" referredColumn="F8B0B128-5FFC-D53F-EBCC-9CD89DBF4641"/>
+</associations>
+</Column>
+<Column name="Sposob_viplati_ID_spviplati" id="9D407192-6CDD-7BE7-BF4F-B6B146D101C9">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>1AE56B1D-45FC-26DE-756C-CFCE4ED2EC85</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E0242BC-9279-3DC2-0E5B-2AF24C67DDD4" referredColumn="09D1B305-195E-C0D7-B0C3-45E76DE66087"/>
+</associations>
+</Column>
+<Column name="Date_viplati" id="4F23EA77-C1B9-60E1-DAF2-744A8117C815">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>59AF7E6A-280B-0353-0592-4F08C36B77E6</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>2D3333F2-637A-4F64-C53C-A89464F79B29</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32BD6872-BE70-45E5-0706-9F06F213489A" name="viplati_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>2ED853C1-A959-9D66-7E43-D07E9C89C341</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ABE838F-B6DA-518A-4244-B1197CC30B26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22264100-D624-0395-CD55-BFA3C25E2FF7" name="viplati_Sposob_viplati_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>1AA4EFE1-668A-CA08-C670-16D80E68BF90</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D407192-6CDD-7BE7-BF4F-B6B146D101C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84653AB7-D167-5C23-74D2-B7A236FD83D8" name="viplati_polzov_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>1E6FC08F-81EB-887C-FBB2-E106ECAB60D0</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="977F85F5-221E-454E-5DF2-3B7777EA0048"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

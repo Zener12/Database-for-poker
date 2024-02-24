@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FE883B5-C4B4-291D-00CD-FE825238B87A" containerWithKeyObject="660783DA-C185-CEF8-828E-7C7272012472" localFKIndex="D6AB84F6-5238-5A38-3721-9A2A5BA2C93B" name="Hist_igrapol_polzov_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>F7892275-6349-23DA-C02B-EE129D7D8614</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<referredTableLongName>polzov</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>60EF29D4-7CAC-8CB2-E9BD-99FE95457B2B</referredTableID>
+<keyObject>95267A6B-702D-FB64-DA30-47935C5BEDB6</keyObject>
+<referredKeyID>95267A6B-702D-FB64-DA30-47935C5BEDB6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_polzov</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

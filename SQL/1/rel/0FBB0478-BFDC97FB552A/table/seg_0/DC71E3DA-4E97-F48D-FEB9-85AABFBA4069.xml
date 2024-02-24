@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC71E3DA-4E97-F48D-FEB9-85AABFBA4069" name="igri">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>80848AF2-1A28-5F1E-C866-DD37F6617774</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_igri" id="7AB63424-5122-87F0-E6A7-00A0E70FF6D2">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>9980BEF2-8C06-B0B2-23B9-F992788B5CCD</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kol_igri" id="D892FBF4-5BC7-A726-6A6A-4975F6FCE7C8">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Количество игроков в одной игре]]></commentInRDBMS>
+<generatorID>9960AC83-38BB-402B-BCFD-6A78AE0D1F13</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uroven_igri" id="A90B3787-DAC5-378D-1EE1-5043E3E3F1AD">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[1/16, 1/8 и т.д.]]></commentInRDBMS>
+<generatorID>02BF917F-6AF9-7B23-DF36-D0AEA2BF90DF</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="turniri_ID_turniri" id="7C6BD764-6CF0-C9FA-713D-1FF9F25FD1FA">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>7323006C-4B1D-D313-4A33-3FA9407C6C4F</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE5B5CCE-059E-AAE4-B1D4-7082949CB8A5" referredColumn="D75E6D3F-1F1D-D793-FF86-3F275AFD0C2D"/>
+</associations>
+</Column>
+<Column name="TypeGame_ID_typegame" id="C48C0D35-DDB2-8209-01A6-9617BEA09AEA">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>07523986-27B2-CEBB-D288-44EADF61FF1E</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5F221A0-776A-6CF9-C989-28F274052B5E" referredColumn="AA891F15-4236-C116-F9B3-7E6406CF9145"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32ACE0FB-5F5E-4907-2BEA-8CFFFCD84A61" name="igri_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>15765662-283C-9466-6637-0924FE95CA2A</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AB63424-5122-87F0-E6A7-00A0E70FF6D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C21816B-8836-015F-B355-991D1D4B05F7" name="igri_turniri_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>E3567393-0D73-2F6E-CFFA-42A3B54C31A2</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C6BD764-6CF0-C9FA-713D-1FF9F25FD1FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="828B12FE-86F2-8667-EC06-6499E25BEBDA" name="igri_TypeGame_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>6E54F315-F085-205F-4A7A-4F5AA5EC616E</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C48C0D35-DDB2-8209-01A6-9617BEA09AEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

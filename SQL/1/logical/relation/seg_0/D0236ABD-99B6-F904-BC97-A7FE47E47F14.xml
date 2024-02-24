@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hist_igrarat" directorySegmentName="seg_0" id="D0236ABD-99B6-F904-BC97-A7FE47E47F14">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:11 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7F92F862-E2C8-3513-CE65-28B4C01BE644</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>80848AF2-1A28-5F1E-C866-DD37F6617774</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="StartDate" id="81ADB9CD-70E7-07A2-E6AB-2C59D99B9BD5">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:25 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="FinishDate" id="E108E4A8-9DDA-D17A-3EA0-46C2611653BB">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:36 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

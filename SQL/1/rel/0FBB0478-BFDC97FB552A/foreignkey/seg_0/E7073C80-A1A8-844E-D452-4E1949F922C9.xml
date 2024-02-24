@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7073C80-A1A8-844E-D452-4E1949F922C9" containerWithKeyObject="D2612463-5755-6E15-A095-E78147780A6D" localFKIndex="61E3B0ED-28BB-5DAD-A5AC-438526238BF0" name="Hist_igrarat_Rating_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>D0236ABD-99B6-F904-BC97-A7FE47E47F14</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<referredTableLongName>Rating</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F0C4561-D862-A31C-91F2-3DAE52631B6C</referredTableID>
+<keyObject>60BBD8A9-0C3B-62BD-A840-5B92BDED93F5</keyObject>
+<referredKeyID>60BBD8A9-0C3B-62BD-A840-5B92BDED93F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_rating</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

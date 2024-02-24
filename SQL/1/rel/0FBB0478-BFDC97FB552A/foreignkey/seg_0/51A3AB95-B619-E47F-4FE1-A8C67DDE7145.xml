@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51A3AB95-B619-E47F-4FE1-A8C67DDE7145" containerWithKeyObject="D2612463-5755-6E15-A095-E78147780A6D" localFKIndex="0B0EA53B-CDB7-EB19-D20C-4B38A2039D08" name="Hist_igrarat_igri_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>D0236ABD-99B6-F904-BC97-A7FE47E47F14</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<referredTableLongName>igri</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC71E3DA-4E97-F48D-FEB9-85AABFBA4069</referredTableID>
+<keyObject>32ACE0FB-5F5E-4907-2BEA-8CFFFCD84A61</keyObject>
+<referredKeyID>32ACE0FB-5F5E-4907-2BEA-8CFFFCD84A61</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_igri</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

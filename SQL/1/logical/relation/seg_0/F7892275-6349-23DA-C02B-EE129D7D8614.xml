@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hist_igrapol" directorySegmentName="seg_0" id="F7892275-6349-23DA-C02B-EE129D7D8614">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:10:21 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>80848AF2-1A28-5F1E-C866-DD37F6617774</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C900D613-9D47-9DD4-5E3F-BEE3FD96126D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Data_igri" id="32446040-CC12-E509-F55B-3DB2A8D1B04B">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:10:58 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

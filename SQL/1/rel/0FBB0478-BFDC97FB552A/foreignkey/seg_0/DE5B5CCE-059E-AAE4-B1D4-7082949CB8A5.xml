@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE5B5CCE-059E-AAE4-B1D4-7082949CB8A5" containerWithKeyObject="DC71E3DA-4E97-F48D-FEB9-85AABFBA4069" localFKIndex="6C21816B-8836-015F-B355-991D1D4B05F7" name="igri_turniri_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>E3567393-0D73-2F6E-CFFA-42A3B54C31A2</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<referredTableLongName>turniri</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF544CE6-05B9-EACE-6607-6E15015B835B</referredTableID>
+<keyObject>2BBFC03D-4A43-2175-3590-79B4E432935F</keyObject>
+<referredKeyID>2BBFC03D-4A43-2175-3590-79B4E432935F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_turniri</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

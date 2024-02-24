@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F92F862-E2C8-3513-CE65-28B4C01BE644" name="Rating">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:29:21 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_rating" id="44D3F241-42D5-4EC0-1926-E173D5C3AB38">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:29:29 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="8F3A08F2-055A-DEB7-E852-D22CA521C9FA">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:29:43 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="391EABCE-3E0B-98DD-741F-B0141BAA6C51" name="Rating PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:29:41 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44D3F241-42D5-4EC0-1926-E173D5C3AB38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

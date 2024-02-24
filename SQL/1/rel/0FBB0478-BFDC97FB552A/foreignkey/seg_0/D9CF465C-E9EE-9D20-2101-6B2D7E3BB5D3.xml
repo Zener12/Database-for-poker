@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D9CF465C-E9EE-9D20-2101-6B2D7E3BB5D3" containerWithKeyObject="660783DA-C185-CEF8-828E-7C7272012472" localFKIndex="3C74A3F4-8478-BC12-B6FA-AAEB2D4E29C0" name="Hist_igrapol_igri_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:31:51 UTC</createdTime>
+<generatorID>F7892275-6349-23DA-C02B-EE129D7D8614</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<referredTableLongName>igri</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC71E3DA-4E97-F48D-FEB9-85AABFBA4069</referredTableID>
+<keyObject>32ACE0FB-5F5E-4907-2BEA-8CFFFCD84A61</keyObject>
+<referredKeyID>32ACE0FB-5F5E-4907-2BEA-8CFFFCD84A61</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_igri</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

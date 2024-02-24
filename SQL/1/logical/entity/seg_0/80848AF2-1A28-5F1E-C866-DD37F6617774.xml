@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80848AF2-1A28-5F1E-C866-DD37F6617774" name="igri">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 06:45:55 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_igri" id="9980BEF2-8C06-B0B2-23B9-F992788B5CCD">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 06:46:00 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kol_igri" id="9960AC83-38BB-402B-BCFD-6A78AE0D1F13">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 06:46:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Количество игроков в одной игре]]></commentInRDBMS>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uroven_igri" id="02BF917F-6AF9-7B23-DF36-D0AEA2BF90DF">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 06:59:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[1/16, 1/8 и т.д.]]></commentInRDBMS>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_turniri" id="7323006C-4B1D-D313-4A33-3FA9407C6C4F">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:08:20 UTC</createdTime>
+<generatorID>E3567393-0D73-2F6E-CFFA-42A3B54C31A2</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<referedAttribute>C129F3FA-B4AA-EE77-77F2-B12CF8FAB993</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_typegame" id="07523986-27B2-CEBB-D288-44EADF61FF1E">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 07:16:18 UTC</createdTime>
+<generatorID>6E54F315-F085-205F-4A7A-4F5AA5EC616E</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<referedAttribute>4C7FDFD1-BD43-B8B7-57C7-CC6B125971A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15765662-283C-9466-6637-0924FE95CA2A" name="igri PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-24 06:46:05 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="0FBB0478-C2B6-5262-0463-BFDC97FB552A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9980BEF2-8C06-B0B2-23B9-F992788B5CCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
